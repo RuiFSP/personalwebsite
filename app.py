@@ -6,6 +6,8 @@ from flask_mail import Mail, Message
 
 load_dotenv()
 
+# just a test
+
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY')
 
